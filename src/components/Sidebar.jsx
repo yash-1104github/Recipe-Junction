@@ -21,8 +21,11 @@ const DesktopSidebar = () => {
       <div className="bg-slate-200 p-3 md:p-10 border-r min-h-screen w-24 md:w-64 hidden sm:block  ">
         <div className="flex flex-col  gap-20 top-10 left-0">
           <div className="w-full">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0TYCxjgo_eJ5lSjH0m5wXscDbYgAA1i9haw&s.jpg" alt="logo" className="hidden md:block" />
-            <img src="/mobile-logo.svg" alt="logo" className="block md:hidden" />
+          <Link to= {"/"}>
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0TYCxjgo_eJ5lSjH0m5wXscDbYgAA1i9haw&s.jpg" alt="logo" className="hidden md:block" />
+              <img src="/mobile-logo.svg" alt="logo" className="block md:hidden" />
+          </Link>
+          
           </div>
           <ul className="flex flex-col item-center md:items-start gap-8">
             <Link to={"/"} className="flex gap-1" >
